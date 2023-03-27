@@ -1,0 +1,12 @@
+last = int(input("enter the last num"))
+
+ist = list(range(0,last))# 0,1,2,3,4,5,6,7
+print(ist)
+x,y = 0,1
+print(x)
+print(y)
+for i in ist:
+    z=x+y
+    x = y
+    y = z
+    print(z)
